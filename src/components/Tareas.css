@@ -1,0 +1,39 @@
+.Tareas {
+    margin-top: 20px;
+}
+
+.tasksList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newTaskBar {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    margin-right: 5px;
+    height: 20px;
+    min-width: 270px;
+    padding: .375rem .75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.buttonSearch {
+    background-color: rgb(121, 187, 255);
+    border-radius: 28px;
+    border: 1px solid rgb(51, 123, 196);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 17px;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: rgb(82, 142, 204) 0px 1px 0px;
+}
